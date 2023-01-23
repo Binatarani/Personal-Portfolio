@@ -265,9 +265,6 @@ service area
   margin-bottom: 15px;
 }
 
-.section-heading {
-  margin-bottom: 55px;
-}
 .service-heading h3 {
   margin-left: 15px;
   margin-bottom: 0;
@@ -456,7 +453,7 @@ Contact area
     padding: 0 10%;
   }
   .slider-area {
-    padding: 5px 0;
+    padding: 0px;
     margin-top: 0;
   }
   .slider-area .hero-text {
@@ -485,7 +482,11 @@ Contact area
   /* work area
    */
   .work-area {
-    padding: 80px 0;
+    padding: 50px 0;
+  }
+  .work-area .section-heading {
+    margin-top: -10px;
+    margin-bottom: 10px;
   }
   .work-content {
     grid-template-columns: repeat(1, 1fr);
@@ -546,9 +547,6 @@ Contact area
  */
   .service-area {
     padding: 60px 0;
-  }
-  .section-heading {
-    margin-bottom: 40px;
   }
   /* work area */
   .work-area .section-heading h2 {
