@@ -456,7 +456,8 @@ Contact area
     padding: 0 10%;
   }
   .slider-area {
-    padding: 80px 0;
+    padding: 5px 0;
+    margin-top: 0;
   }
   .slider-area .hero-text {
     margin-right: 20px;
@@ -550,9 +551,6 @@ Contact area
     margin-bottom: 40px;
   }
   /* work area */
-  .work-area {
-    padding: 60px 0;
-  }
   .work-area .section-heading h2 {
     font-size: 40px;
     letter-spacing: 2px;
@@ -565,9 +563,6 @@ Contact area
 }
 
 @media only screen and (max-width: 575px) {
-  .slider-area {
-    padding: 30px 0;
-  }
   .hero-text h2 {
     font-size: 34px;
     line-height: 40px;
@@ -586,9 +581,6 @@ Contact area
   }
   /* work area
   */
-  .work-area {
-    padding: 30px 0;
-  }
   .work-area .section-heading h2 {
     font-size: 34px;
   }
