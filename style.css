@@ -113,40 +113,39 @@ Header area
   align-items: center;
 }
 
-#preloder-area::after,
-#preloder-area::before {
+#preloader-area::after,
+#preloader-area::before {
   position: absolute;
   content: "";
   width: 50%;
   height: 100%;
   background-color: #111;
   z-index: -1;
-  transition: 0.5s ease-in-out;
+  transition: 2s ease-in-out;
 }
-#preloder-area::before {
+#preloader-area::before {
   left: 0px;
 }
-#preloder-area::after {
+#preloader-area::after {
   right: 0px;
 }
 .page-loaded .spinner-border {
   display: none;
 }
-#preloder-area.page-loaded::before {
+#preloader-area.page-loaded::before {
   left: -50%;
 }
-#preloder-area.page-loaded::after {
+#preloader-area.page-loaded::after {
   right: -50%;
 }
 /* Slider area -
  particle js
  */
-.slider-area {
+.hero-section {
   background-color: #1e1e1e;
   padding: 80px 0;
 }
 .hero-section {
-  height: 100vh;
   background-position: center;
   background-size: cover;
   position: relative;
@@ -173,17 +172,10 @@ Header area
   text-transform: uppercase;
   text-align: center;
 }
-.hero-section .hero-image img {
+.hero-image img {
   border-radius: 50%;
 }
-#particles-js {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  z-index: 2;
-}
+
 /* 
 Hero area */
 .hero-area {
@@ -338,6 +330,14 @@ Contact area
   padding: 85px 0;
   background-color: #28293e;
 }
+/* .contact-image img {
+  opacity: 100%;
+  color: #28293e;
+  background-color: transparent;
+}
+.contact-image:hover img {
+  opacity: 50%;
+} */
 .section-heading h2 {
   color: #fff;
 }
@@ -390,6 +390,14 @@ Contact area
 .contact-text ul li a {
   color: #fff;
   text-decoration: none;
+}
+#error-text p {
+  margin-bottom: 0;
+}
+#error-text {
+  min-height: 25px;
+  font-size: 15px;
+  margin: 10px 0;
 }
 /* 
  Footer area
