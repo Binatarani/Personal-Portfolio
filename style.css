@@ -121,7 +121,7 @@ Header area
   height: 100%;
   background-color: #111;
   z-index: -1;
-  transition: 2s ease-in-out;
+  transition: 0.5s ease-in-out;
 }
 #preloader-area::before {
   left: 0px;
@@ -455,18 +455,6 @@ Contact area
   .header-area .nav-item:last-child a {
     text-align: center;
   }
-  /* slider area
-   */
-  .container {
-    padding: 0 10%;
-  }
-  .slider-area {
-    padding: 0px;
-    margin-top: 0;
-  }
-  .slider-area .hero-text {
-    margin-right: 20px;
-  }
 
   /* service area
    */
@@ -540,17 +528,18 @@ Contact area
   .hero-text {
     margin-bottom: 30px;
   }
-  .slider-area .hero-text h2 {
+  .hero-area .hero-text h2 {
     letter-spacing: -1px;
   }
-  .slider-area .hero-text h4 {
+  .hero-area .hero-text h4 {
     letter-spacing: 1px;
   }
-  .slider-area .hero-text a {
+  .hero-area .hero-text a {
     padding: 10px 20px;
     font-size: 12px;
     line-height: 12px;
   }
+
   /* service area
  */
   .service-area {
